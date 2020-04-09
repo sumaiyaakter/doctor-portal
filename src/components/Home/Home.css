@@ -1,0 +1,30 @@
+.hero{
+    position: relative;
+    z-index: 1;
+    padding: 170px 0 100px;
+}
+.hero__v1{
+}
+.hero__v2{
+    /* padding: 170px 0 0; */
+}
+.hero:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/banner-overlay.png);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.hero h1{
+    color: #203047;
+}
+.hero p{
+    margin-bottom: 45px;
+}
+@media only screen and (max-width: 991px) {
+
+}

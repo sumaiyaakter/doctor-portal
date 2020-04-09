@@ -1,0 +1,28 @@
+.services{
+    padding: 100px 0;
+}
+.services .title{
+    color: #1CC7C1;
+    padding-bottom: 60px;
+}
+
+.card__v1{
+    border: 0;
+    box-shadow: 0 3px 20px rgba(0,0,0,.08);
+    padding: 20px 4px;
+    margin-bottom: 53px;
+}
+.card__v1 .cart-title{
+    color: #1CC7C1;
+}
+.card__v1 .time{
+    color: #3A4256;
+    margin-bottom: 0;
+}
+.card__v1 .cart-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8B8888;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}   

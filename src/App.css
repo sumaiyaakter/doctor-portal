@@ -1,0 +1,132 @@
+/* ---------------------------------------------- /*
+* 01. Reset CSS
+/* ---------------------------------------------- */
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    color: #000000;
+  }
+  ul,
+  ol {
+  margin: 0;
+  padding: 0;
+  }
+  
+  li {
+  list-style: none;
+  }
+  
+  a {
+  text-decoration: none;
+  display: inline-block;
+  }
+  
+  a:hover {
+  text-decoration: none;
+  }
+  
+  a:focus {
+  outline: 0;
+  }
+  button {
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+  background: 0;
+  }
+  
+  button:focus,
+  .btn:focus {
+  outline: 0;
+  box-shadow: none;
+  }
+  span {
+    display: inline-block;
+  }
+  
+  section {
+  position: relative;
+  }
+  .form-control:focus{
+    box-shadow: none;
+    outline: 0;
+  }
+  
+  
+  
+  
+  /* ---------------------------------------------- /*
+  * 02. Typography Css
+  /* ---------------------------------------------- */
+  h1, h2, h3, h4, h5, h6{
+    color: #1F1F1F;
+    font-weight: 500;
+  }
+  h1{
+    font-size: 65px;
+    line-height: 96px;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  h3{
+    font-size: 28px;
+    font-weight: 500;
+  }
+  h4{
+    font-weight: 600;
+    font-size: 24px;
+  }
+  p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #B4B4B4;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  @media only screen and (max-width: 767px) {
+    h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    h1{
+        font-size: 36px;
+        line-height: 45px;
+    }
+  }
+
+/* ---------------------------------------------- /*
+  * 03. Common Css
+/* ---------------------------------------------- */
+  .btn{
+    background-image: linear-gradient(to left, #0FCFEC, #19D3AE);
+    color: #fff;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: .5s;
+    padding: 10px 15px;
+    font-weight: 700;
+  }
+
+.btn_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+}
+
+
+  @media only screen and (max-width: 1199px) {}

@@ -1,0 +1,27 @@
+.navigation{
+    padding: 20px 0;
+}
+.fixed-top{
+    z-index: 99;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #707070;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 8px 30px;
+}
+.nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar-nav{
+        margin-top: 25px;
+        border-top: 1px solid #e0e1e2;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        border-bottom: 1px solid #e0e1e2;
+        padding: 16px 0;
+        line-height: 24px;
+    }
+}
