@@ -24,11 +24,7 @@ function App() {
             <Route path="/appointment">
               <Appointment></Appointment>
             </Route>
-
-            <Route path="/service">
-              <Appointment></Appointment>
-            </Route>
-
+            
             <Route path="/dashboard">
               <Dashboard></Dashboard>
             </Route>

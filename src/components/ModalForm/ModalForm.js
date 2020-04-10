@@ -82,7 +82,6 @@ const handleChange = (event) => {
                     <div className="text-right">
                         <button type="submit" className="btn submit-btn">send</button>
                     </div>
-                
                     </form>
             </Modal>
         </div>
