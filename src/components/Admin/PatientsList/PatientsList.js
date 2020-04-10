@@ -7,6 +7,7 @@ import {
   MuiPickersUtilsProvider,
   KeyboardDatePicker,
 } from '@material-ui/pickers';
+import './PatientsList.css'
 
 
 const PatientsList = () => {
@@ -39,10 +40,9 @@ const PatientsList = () => {
             <div className="sidebar_content">
                 <h4>Patients</h4>
                 {/* table start */}
-                <div className="">
-                    <div className="d-flex">
+                <div className="patients_list">
+                    <div className="d-flex justify-content-between align-items-center pb-4">
                     <h5>All Patients</h5>
-                            {/* calendar start */}
                         <MuiPickersUtilsProvider utils={DateFnsUtils}>
                             <Grid container justify="space-around">
                                 <KeyboardDatePicker
@@ -56,8 +56,7 @@ const PatientsList = () => {
                                 }}/>
                             </Grid>
                         </MuiPickersUtilsProvider>
-                        {/* calendar end */}
-                        </div>
+                    </div>
                     <TableContainer component={Paper}>
                         <Table aria-label="simple table">
                             <TableHead>

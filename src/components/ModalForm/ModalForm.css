@@ -3,12 +3,12 @@
     background: "rgba(211,211,211,0.5)"
 }
 .ReactModal__Content--after-open{
-    height:380px;
     width: 500px;
     text-align: center;
-    border-radius: 20px;
     margin: auto;
-    padding: 25px 50px;
+    padding: 24px 43px!important;
+    display: flex;
+    align-items: center
 }
 .close-btn{
     position: absolute;
@@ -22,21 +22,35 @@
     color: red;
 }
 
-.MuiInput-underline:before, 
-.MuiInput-underline:hover:not(.Mui-disabled):before {
-    border-bottom: 0;
-}
+
+
 .select-time{
     width: 100%;
     margin-bottom: 15px;
+    padding: 6px 18px;
+}
+.MuiSelect-select.MuiSelect-select{
+    color: #8B8888;
+}
+.MuiInput-underline:before, 
+.MuiInput-underline:hover:not(.Mui-disabled):before,
+.MuiInput-underline:after {
+    border: 0 !important;
+}
+.MuiSelect-select:focus {
+    background: none !important;
 }
 .select-time, .form-control {
     border: 1px solid #A5A5A5;
     border-radius: 5px;
-    padding: 20px 18px;
     text-align: left;
     font-size: 15px;
     color: #8B8888;
+    width: 100%;
+    text-transform: capitalize;
+}
+.form-control {
+    padding: 20px 18px;
 }
 .submit-btn{
     padding: 8px 40px;

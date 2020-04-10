@@ -7,13 +7,13 @@ import './DatePicker.css';
 const DatePicker = (props
     ) => {
     return (
-        <div className="hero hero__v2">
+        <div className="hero">
              <div className="container">
                  <div className="row">
                      <div className="col-12">
-                         <h1 className="title mb-3">Appointment</h1>
+                         <h1 className="title mb-5">Appointment</h1>
                      </div>
-                     <div className="col-12 col-lg-6">
+                     <div className="col-12 col-lg-6 mb-4 mb-lg-0">
                         <Calendar
                             onChange={d => props.handleDate(d)}
                             value={props.date}

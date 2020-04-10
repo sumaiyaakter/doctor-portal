@@ -2,3 +2,6 @@ tfoot.MuiTableFooter-root,
 .MTableToolbar-searchField-38 {
     display: none !important;
 }
+.MuiTypography-h6 {
+    color: #1CC7C1;
+}

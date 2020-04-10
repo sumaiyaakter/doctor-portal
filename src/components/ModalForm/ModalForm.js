@@ -48,12 +48,10 @@ const handleChange = (event) => {
                  isOpen={props.modalIsOpen} 
                  onRequestClose={props.closeModal}>
 
-                {/* <h4 className='text-info'>{props.appointmentInfo.title}</h4> */}
-
                 <button className="close-btn" 
                     onClick={()=>props.closeModal(props.closeModal)}>×
                 </button>
-                <form  noValidate autoComplete="off">
+                <form  noValidate autoComplete="off" className="w-100">
                     <div className="select-time">
                         <TextField
                         id="standard-select-currency"
@@ -70,10 +68,10 @@ const handleChange = (event) => {
                     
                     </div>
                     <Form.Group controlId="formGroupName">
-                        <Form.Control type="name" placeholder="YOUR NAME" />
+                        <Form.Control type="name" placeholder="your name" />
                     </Form.Group>
                     <Form.Group controlId="formGroupEmail">
-                        <Form.Control type="email" placeholder="PHONE NUMBER" />
+                        <Form.Control type="email" placeholder="email" />
                     </Form.Group>
                     <Form.Group controlId="formGroupPassword">
                         <Form.Control type="password" placeholder="Password" />

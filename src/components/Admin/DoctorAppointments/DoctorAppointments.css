@@ -1,0 +1,25 @@
+.appointment_date {
+    box-shadow: 0 3px 20px rgba(0,0,0,0.06);
+    margin-left: 41px;
+    padding: 39px 35px;
+    background-color: #fff;
+}
+
+.appointment_date h4 {
+    color: #1CC7C1;
+    font-size: 20px;
+    padding: 0;
+}
+.appointment_date p{
+    font-size: 15px;
+}
+.appointment_date .table td, 
+.appointment_date .table th, 
+.appointment_date .table thead th {
+    border: 0;
+}
+@media only screen and (max-width: 1199px) {
+    .appointment_date {
+        margin-left: 0;
+    }
+}

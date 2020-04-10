@@ -3,11 +3,6 @@
     z-index: 1;
     padding: 170px 0 100px;
 }
-.hero__v1{
-}
-.hero__v2{
-    /* padding: 170px 0 0; */
-}
 .hero:after {
     position: absolute;
     content: "";
