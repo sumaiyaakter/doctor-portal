@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faChartLine, faCalendarCheck, faUserFriends, faFileAlt, faCog, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import './Sidebar.css'
-import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     const [activeMenu, setActiveMenu] = useState("Dashboard");
@@ -19,63 +18,63 @@ const Sidebar = () => {
         <div className="sidebar">
             <nav>
                 <li>
-                <Link to="/" className="nav-link" >
+                <a href="/" className="nav-link" >
                     Go back Home page
-                </Link>
+                </a>
                 </li>
 
                 <li  onClick={()=> selectedItem ("Dashboard") } >
-                <Link to="/dashboard" className="nav-link" >
+                <a href="/dashboard" className="nav-link" >
                     <span  className={`${activeMenu === "Dashboard" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faChartLine} /></div>
                     Dashboard 
                     </span>
-                </Link>
+                </a>
                 </li>
 
                 <li  onClick={()=> selectedItem ("Appointment") } >
-                <Link to="/doctorsAppointment" className="nav-link" >
+                <a href="/doctorsAppointment" className="nav-link" >
                     <span  className={`${activeMenu === "Appointment" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faCalendarCheck} /></div>
                     Appointment 
                     </span>
-                </Link>
+                </a>
                 </li>
 
                 <li  onClick={()=> selectedItem ("Patients") } >
-                <Link to="/patientsList" className="nav-link" > 
+                <a href="/patientsList" className="nav-link" > 
                     <span  className={`${activeMenu === "Patients" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faUserFriends} /></div>
                     Patients 
                     </span>
-                </Link>
+                </a>
                 </li>
 
                 <li  onClick={()=> selectedItem ("Prescriptions") } >
-                <Link to="/prescriptions" className="nav-link" > 
+                <a href="/prescriptions" className="nav-link" > 
                     <span  className={`${activeMenu === "Prescriptions" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faFileAlt} /></div>
                     Prescriptions 
                     </span>
-                </Link>
+                </a>
                 </li>
 
                 <li  onClick={()=> selectedItem ("Setting") } >
-                <Link to="/setting" className="nav-link" >
+                <a href="/setting" className="nav-link" >
                     <span id="d-flex" className={`${activeMenu === "Setting" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faCog} /></div>
                     Setting 
                     </span>
-                </Link>
+                </a>
                 </li>
 
                 <li  onClick={()=> selectedItem ("Log Out") } >
-                <Link to="/logout" className="nav-link" >
+                <a href="/logout" className="nav-link" >
                     <span id="d-flex" className={`${activeMenu === "Log Out" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faSignOutAlt} /></div>
                     Log Out 
                     </span>
-                </Link>
+                </a>
                 </li>
 
             </nav>

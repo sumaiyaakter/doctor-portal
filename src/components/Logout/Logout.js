@@ -1,7 +1,7 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
-import Navigation from '../../Navigation/Navigation';
 import './Logout.css'
+import Navigation from '../Navigation/Navigation';
 
 const Logout = () => {
     return (
