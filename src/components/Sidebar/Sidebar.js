@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faChartLine, faCalendarCheck, faUserFriends, faFileAlt, faCog, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
 import './Sidebar.css'
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     const [activeMenu, setActiveMenu] = useState("Dashboard");

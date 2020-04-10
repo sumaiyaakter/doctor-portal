@@ -1,10 +1,13 @@
 .card__v2{
     padding-bottom: 50px;
 }
+.card__v2 .card {
+    max-width: 23%;
+    margin: 0 6px;
+}
 .card__v2 .card:nth-child(n+1) {
     background: #F1536E;
 }
-
 .card__v2 .card:nth-child(2n+2) {
     background: #3DA5F4;
 }

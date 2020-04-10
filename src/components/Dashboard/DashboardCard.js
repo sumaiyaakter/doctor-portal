@@ -3,8 +3,8 @@ import './DashboardCard.css'
 
 const DashboardCard = (props) => {
     return (
-        <div className="col-12 col-md-6 col-xl-3">
-            <div className="card">
+        <div className="col-12 col-md-6 col-xl-3 card">
+            <div className="a">
                 <div className="card_body d-lg-flex">
                     <h1>{props.number}</h1>
                     <div>
