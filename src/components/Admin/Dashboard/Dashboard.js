@@ -30,7 +30,6 @@ const Dashboard = () => {
         
     ]
 
-    // Table
     const [state, setState] = React.useState({
         columns: [
             { title: 'no', field: 'no' },

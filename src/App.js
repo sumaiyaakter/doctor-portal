@@ -8,13 +8,13 @@ import {
 import Home from './components/Home/Home';
 import Appointment from './components/Appointment/Appointment';
 import Navigation from './components/Navigation/Navigation';
-import DoctorAppointments from './components/DoctorAppointments/DoctorAppointments';
-import PatientsList from './components/PatientsList/PatientsList';
-import Prescriptions from './components/Prescriptions/Prescriptions';
-import Setting from './components/Setting/Setting';
+import DoctorAppointments from './components/Admin/DoctorAppointments/DoctorAppointments';
+import PatientsList from './components/Admin/PatientsList/PatientsList';
+import Prescriptions from './components/Admin/Prescriptions/Prescriptions';
+import Setting from './components/Admin/Setting/Setting';
 import Logout from './components/Logout/Logout';
 import Error from './components/Error/Error';
-import Dashboard from './components/Dashboard/Dashboard';
+import Dashboard from './components/Admin/Dashboard/Dashboard';
 
 function App() {
   return (

@@ -4,6 +4,7 @@ import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 import { Form } from 'react-bootstrap';
 import './ModalForm.css'
+import { Link } from 'react-router-dom';
 
 
 const currencies = [
@@ -79,9 +80,11 @@ const handleChange = (event) => {
                     <Form.Group controlId="formGroupPhone">
                         <Form.Control type="text" placeholder="phone number" />
                     </Form.Group>
-                    <div className="text-right">
-                        <button type="submit" className="btn submit-btn">send</button>
-                    </div>
+                    <Link to="/">
+                        <div className="text-right">
+                            <button type="submit" className="btn submit-btn">send</button>
+                        </div>
+                    </Link>
                     </form>
             </Modal>
         </div>

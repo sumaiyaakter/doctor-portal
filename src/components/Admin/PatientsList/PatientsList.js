@@ -11,15 +11,12 @@ import './PatientsList.css'
 
 
 const PatientsList = () => {
-    // calendar start
     const [selectedDate, setSelectedDate] = React.useState(new Date('09/04/2020'));
 
     const handleDateChange = (date) => {
       setSelectedDate(date);
     };
-    // calendar end
 
-    // table start
           function createData(name, gender, age, weight, contact, address, ages) {
             return { name, gender, age, weight, contact, address, ages };
           }
@@ -32,14 +29,12 @@ const PatientsList = () => {
             createData('05','Karim Ahmed', 'Male', 20, 50, '0123456789', 'South Gazirchar, Savar, Dhaka'),
             createData('06','Karim Ahmed', 'Male', 20, 50, '0123456789', 'South Gazirchar, Savar, Dhaka'),
           ];
-    // table end
 
     return (
         <div className="layoutSidenav dashboard">
             <Sidebar></Sidebar>
             <div className="sidebar_content">
                 <h4>Patients</h4>
-                {/* table start */}
                 <div className="patients_list">
                     <div className="d-flex justify-content-between align-items-center pb-4">
                     <h5>All Patients</h5>
@@ -87,7 +82,6 @@ const PatientsList = () => {
                     </TableContainer>
                
                 </div>
-                {/* table end */}
             </div>
         </div>
     );

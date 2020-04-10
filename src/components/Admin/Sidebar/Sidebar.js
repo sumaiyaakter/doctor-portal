@@ -25,7 +25,7 @@ const Sidebar = () => {
                 </li>
 
                 <li  onClick={()=> selectedItem ("Dashboard") } >
-                <Link to="/dashboard" className="nav-link" >
+                <Link to="dashboard" className="nav-link" >
                     <span  className={`${activeMenu === "Dashboard" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faChartLine} /></div>
                     Dashboard 
@@ -34,7 +34,7 @@ const Sidebar = () => {
                 </li>
 
                 <li  onClick={()=> selectedItem ("Appointment") } >
-                <Link to="/doctorsAppointment" className="nav-link" >
+                <Link to="doctorsAppointment" className="nav-link" >
                     <span  className={`${activeMenu === "Appointment" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faCalendarCheck} /></div>
                     Appointment 
@@ -43,7 +43,7 @@ const Sidebar = () => {
                 </li>
 
                 <li  onClick={()=> selectedItem ("Patients") } >
-                <Link to="/patientsList" className="nav-link" > 
+                <Link to="patientsList" className="nav-link" > 
                     <span  className={`${activeMenu === "Patients" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faUserFriends} /></div>
                     Patients 
@@ -52,7 +52,7 @@ const Sidebar = () => {
                 </li>
 
                 <li  onClick={()=> selectedItem ("Prescriptions") } >
-                <Link to="/prescriptions" className="nav-link" > 
+                <Link to="prescriptions" className="nav-link" > 
                     <span  className={`${activeMenu === "Prescriptions" ? "active" : " "}`}>
                     <div className="sidebar-icon"><FontAwesomeIcon icon={faFileAlt} /></div>
                     Prescriptions 
