@@ -10,7 +10,7 @@ const Home = () => {
                     <div className="col-12 col-lg-6">
                         <h1>Your New Smile Starts Here</h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the</p>
-                        <a href="appointment">
+                        <a href="/appointment">
                             <button  className="btn"><span className="btn_text">Get appointment</span></button>
                         </a>
                     </div>
